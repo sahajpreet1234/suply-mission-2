@@ -18,7 +18,8 @@ function setup() {
 	createCanvas(800, 700);
 	rectMode(CENTER);
 	
-	log1 =new log (380,230,40,60);
+	log1 = (380,230,40,60);
+	log1.fill("red")
 	//log2 =new log2 (400,230,40,20);
 	//log3 =new log3 (420,230,40,60);
 
@@ -58,9 +59,9 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
 
- log1.display
- // log2.display
-//  log3.display
+  log1.display();
+  // log2.display
+ //  log3.display
 
   drawSprites();
  
